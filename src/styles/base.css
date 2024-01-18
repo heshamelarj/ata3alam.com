@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+  body{direction: rtl;}
   :root,
   html[data-theme="light"] {
     --color-fill: 251, 254, 251;
