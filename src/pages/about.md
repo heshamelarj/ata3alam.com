@@ -3,34 +3,19 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+# مرحبًا بكم في مدونتنا حول تطوير الويب!
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+## حول هشام، مطوّر الويب
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+تحية وترحيب حار! تعد هذه المدونة بيتًا لخبرة وشغف هشام، مطوّر الويب الملهم. يفتخر هشام بصقل أدوات فعّالة ومفيدة، وهو متحمس لمشاركة معرفته ورؤيته في ميدان تطوير الويب.
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+## رؤيتنا
 
-## Tech Stack
+تجسد هذه المدونة رؤية واضحة تجمع بين الإبداع والابتكار في مجال تطوير الويب. تقدم محتوى قيمًا لعشاق البرمجة والمحترفين في مجال تكنولوجيا المعلومات. يقدم هشام مقالات مفصلة وشروحات واضحة حول أحدث اتجاهات التكنولوجيا وأفضل الممارسات في تطوير الويب.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+## ماذا تتوقع
 
-## Features
+سواء كنت مبتدئًا في عالم البرمجة أو محترفًا ذا خبرة، ستجد هنا مصدرًا قيمًا لتوسيع معرفتك وتحسين مهاراتك في تطوير الويب. ندعوكم لمشاركة هذه الرحلة التعليمية والإلهامية معنا، حيث يعكس هشام رؤيته الفريدة في بناء وتعزيز التطبيقات والأدوات التي تخدم المجتمع البرمجي بشكل عام. شكرًا لتواجدكم ونأمل أن تجدوا في مدونتنا ما يفيدكم ويلهمكم في رحلتكم في عالم تطوير الويب.
 
-Here are certain features of this site.
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+ [ البريد الالكتروني](mailto:hicham.elarg@gmail.com).
