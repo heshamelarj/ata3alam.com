@@ -16,22 +16,19 @@ const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
+
+// import Index from '@utils/GoogleAnalyticsTag';
 ---
 
-<!doctype html>
-<html lang="ar">
-  <head>
-    <!-- Google tag (gtag.js) -->
+
     <script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-RH8MJDP7YL"></script>
     <script type="text/partytown">
-      window.dataLayer = window.dataLayer || [];
+     window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-RH8MJDP7YL');
     </script>
-  </head>
-</html>
+
 
 <Layout>
   <Header />
@@ -56,16 +53,11 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        كلمات من قاموس يحوي على أكثر من 200 كلمة لا تينية، مضاف إليها مجموعة من الجمل النموذجية، لتكوين نص لوريم إيبسوم ذو شكل منطقي قريب إلى النص الحقيقي
+        أتعلم هو موقع يهتم بنشر مقالات ذات صلة بكل ما يسهل تعلم للاعلاميات
       </p>
       <p>
         اقرأ منشورات المدونة أو تحقق منها
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          التمهيدي
-        </LinkButton> لمزيد من المعلومات.
+        لمزيد من المعلومات.
       </p>
       {
         // only display if at least one social link is enabled
