@@ -6,6 +6,8 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 import { SITE } from "./src/config";
+import mdx from '@astrojs/mdx';
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -14,6 +16,7 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
     }),
+    mdx(),
     react(),
     sitemap(),
     partytown({
