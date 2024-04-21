@@ -6,19 +6,17 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 import { SITE } from "./src/config";
-import netlify from '@astrojs/netlify';
+import mdx from '@astrojs/mdx';
+
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
-  adapter: netlify({
-    edgeMiddleware: true
-  }),
   site: SITE.website,
   integrations: [
     tailwind({
       applyBaseStyles: false,
     }),
+    mdx(),
     react(),
     sitemap(),
     partytown({
