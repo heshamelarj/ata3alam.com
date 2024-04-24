@@ -4,7 +4,7 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search";
+  activeNav?: "posts" | "tags" | "about" | "terms-of-use" | "privacy-policy" | "search";
 }
 
 const { activeNav } = Astro.props;
@@ -60,14 +60,24 @@ const { activeNav } = Astro.props;
               المقالات
             </a>
           </li>
+          <!--<li>-->
+          <!--  <a href="/tags" class={activeNav === "tags" ? "active" : ""}>-->
+          <!--    العلامات-->
+          <!--  </a>-->
+          <!--</li>-->
           <li>
-            <a href="/tags" class={activeNav === "tags" ? "active" : ""}>
-              العلامات
+            <a href="/about" class={activeNav === "about" ? "active" : ""}>
+               عنا
             </a>
           </li>
           <li>
-            <a href="/about" class={activeNav === "about" ? "active" : ""}>
-              إقرأ عنا
+            <a href="/terms-of-use" class={activeNav === "terms-of-use" ? "active" : ""}>
+              شروط الإستخدام
+            </a>
+          </li>
+          <li>
+            <a href="/privacy-policy" class={activeNav === "privacy-policy" ? "active" : ""}>
+              سياسة الخصوصية
             </a>
           </li>
           <li>
