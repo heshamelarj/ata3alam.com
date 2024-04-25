@@ -1,0 +1,26 @@
+---
+layout: ../layouts/ContactLayout.astro
+title: "تواصل معنا"
+---
+
+    <form action="https://formsubmit.co/hicham.elarg@gmail.com" method="POST" data-astro-reload>
+      <input type="text" name="name"  class="block w-full rounded border border-skin-fill
+        border-opacity-100 bg-skin-fill py-3 pl-10
+        pr-3 placeholder:italic placeholder:text-opacity-75
+        focus:border-skin-accent border-white-900 border-2 text-gray-400 focus:outline-none mt-10"
+             placeholder="الاسم"
+             type="text" required/>
+      <input type="email" name="email" class="block w-full rounded border border-skin-fill
+        border-opacity-100 bg-skin-fill py-3 pl-10
+        pr-3 placeholder:italic placeholder:text-opacity-75 text-gray-400
+        focus:border-skin-accent border-white-900 border-2 focus:outline-none mt-10"  placeholder="البريد الالكتروني" required/>
+        <textarea name="message" class="block w-full rounded border border-skin-fill
+        border-opacity-100 bg-skin-fill py-3 pl-10
+        pr-3 placeholder:italic placeholder:text-opacity-75 text-gray-400
+        focus:border-skin-accent border-white-900 border-2 focus:outline-none mt-10" placeholder="...اكتب محتوى الرسالة هنا"></textarea>
+    <input type="hidden" name="_next" value="http://localhost:4321/thanks"/>
+
+      <button class="border-2 p-5 w-full text-amber-50 bg-amber-800 mt-10 border-none hover:bg-amber-50 hover:text-amber-800 " type="submit">Send</button>
+    </form>
+
+
