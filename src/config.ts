@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://ata3alam.com/", // replace this with your deployed domain
   author: "هشام",
   desc: "أتعلم هو موقع يهتم بنشر مقالات ذات صلة بكل ما يسهل تعلم للاعلاميات",
-  title: "مدونة أتعلم ",
+  title: "أتعلم،للإعلاميات",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -28,7 +28,7 @@ export const SOCIALS: SocialObjects = [
     name: "Github",
     href: "https://github.com/heshamelarj/arabic-minimal-blog/",
     linkTitle: ` ${SITE.title} on Github`,
-    active: true,
+    active: false,
   },
   {
     name: "Facebook",
