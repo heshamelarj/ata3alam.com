@@ -21,7 +21,11 @@ export default defineConfig({
 
 
           item.changefreq = 'monthly';
-          // item.lastmod = new Date();
+          if (/about/.test(item.url) || /terms-of-use/.test(item.url))
+          {
+             item.lastmod = new Date();
+
+          }
           item.priority = 0.5;
 
         return item;
