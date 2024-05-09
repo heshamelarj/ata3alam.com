@@ -15,7 +15,23 @@ export default defineConfig({
   site: SITE.website,
   integrations: [tailwind({
     applyBaseStyles: false
-  }), mdx(), react(), sitemap(), partytown({
+  }), mdx(), react(), sitemap(
+    {
+      serialize(item) {
+
+
+          item.changefreq = 'monthly';
+          if (/about/.test(item.url) || /terms-of-use/.test(item.url))
+          {
+             item.lastmod = new Date();
+
+          }
+          item.priority = 0.5;
+
+        return item;
+      },
+    }
+  ), partytown({
     config: {
       forward: ["dataLayer.push"]
     }
