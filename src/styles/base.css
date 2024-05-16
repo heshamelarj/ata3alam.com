@@ -142,3 +142,6 @@
 #back-to-top{
   color: #FF6B01;
 }
+.inline-image{
+  display: inline;
+}
