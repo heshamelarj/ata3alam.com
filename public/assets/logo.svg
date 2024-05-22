@@ -3,8 +3,8 @@
     <rect width="100%" height="100%" fill="transparent" />
 
     <!-- Main text -->
-    <text x="76%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="70" fill="#FF6B01">أَتَعَلَّم</text>
+    <text x="76%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="IBM Plex Mono" font-size="70" fill="#FF6B01">أَتَعَلَّم</text>
 
     <!-- Subtext -->
-    <text x="43%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="40" fill="#006CAC">...ـعلوميات</text>
+    <text x="43%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="IBM Plex Mono" font-size="40" fill="#006CAC">...ـعلوميات</text>
 </svg>
