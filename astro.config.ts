@@ -20,8 +20,17 @@ export default defineConfig({
       serialize(item) {
 
 
+
+
+        // if (/كيف-تستفيد-من-كتب-التنمية-الذاتية/.test(item.url)) {
+        //   item.changefreq = 'monthly';
+        //   item.lastmod = new Date();
+        //   item.priority = 0.9;
+        // }
+
           item.changefreq = 'monthly';
           item.priority = 0.5;
+
 
         return item;
       },
