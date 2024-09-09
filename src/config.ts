@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://ata3alam.com/", // replace this with your deployed domain
   author: "هشام",
   desc: "أتعلم هو موقع يهتم بنشر مقالات ذات صلة بكل ما يسهل تعلم للاعلاميات",
-  title: "مُدَوَّنة أَتَعَلَّم",
+  title: "مدونة أتعلم",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,

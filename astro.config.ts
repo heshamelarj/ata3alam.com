@@ -8,7 +8,6 @@ import partytown from "@astrojs/partytown";
 import { SITE } from "./src/config";
 import mdx from '@astrojs/mdx';
 
-// import jopSoftwarecookieconsent from "@jop-software/astro-cookieconsent";
 
 // https://astro.build/config
 export default defineConfig({
