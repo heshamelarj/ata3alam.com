@@ -140,7 +140,13 @@
   justify-content: center;
 }
 #back-to-top{
+  padding: .2em;
   color: #FF6B01;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+
+  /*background: #006CAC;*/
 }
 .inline-image{
   display: inline;

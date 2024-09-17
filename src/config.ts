@@ -32,20 +32,20 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Facebook`,
+    href: "https://www.facebook.com/heshamelarj/",
+    linkTitle: ` صاحب ${SITE.title} على فيسبوك `,
     active: true,
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
+    href: "https://www.instagram.com/heshamelarj/",
+    linkTitle: ` صاحب ${SITE.title}على إنستغرام `,
     active: true,
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on LinkedIn`,
+    href: "https://www.linkedin.com/in/heshamelarj",
+    linkTitle: ` صاحب ${SITE.title}على لينكدن `,
     active: true,
   },
   {
