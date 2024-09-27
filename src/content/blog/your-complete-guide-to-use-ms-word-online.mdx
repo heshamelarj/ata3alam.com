@@ -18,8 +18,11 @@ import InPostCustomLink from '../../components/InPostCustomLink';
 import CoverImage from "../../components/CoverImage";
 import BulletPointList from "../../components/BulletPointList";
 import StepNumber from "../../components/StepNumber";
+import GrayBoldStepNumber from "../../components/GrayBoldStepNumber";
+import GrayBoldStepNumberWithBorderAndPadding from "../../components/GrayBoldStepNumberWithBorderAndPadding";
 import Figure from "../../components/Figure";
 import Video from "../../components/Video";
+import NumberedList from "../../components/NumberedList";
 
 <CoverImage alt={"مكتب باللون البرتقالي والأزرق"}
             photoUrl={"https://www.pexels.com/photo/brown-wooden-desk-with-rolling-chair-and-shelves-near-window-667838"}
@@ -68,13 +71,13 @@ import Video from "../../components/Video";
 
 الرابط التالي <InPostCustomLink linkTitle={"التسجيل للحصول على الإصدار المجاني ل مايكروسوفت 365"} href={"https://www.office.com/?omkt=ar-SA"}/> سيأخدك إلى الواحهة في ```الصورة 02```.
 
-أو يمكنك البحث عن جملة ```حساب مايكروسوفت 365``` على موقع <InPostCustomLink href={"https://google.com"} linkTitle={"جوجل"}/> كما هو مُشار إليه بالرقم <StepNumber stepNumber={"1"}/> من الصورة 01 ، فتحصل على نتيجة مشابهة لما في الصورة التالية:
+أو يمكنك البحث عن جملة ```حساب مايكروسوفت 365``` على موقع <InPostCustomLink href={"https://google.com"} linkTitle={"جوجل"}/> كما هو مُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"1"}/> من الصورة 01 ، فتحصل على نتيجة مشابهة لما في الصورة التالية:
 
 
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-1-search-for-ms-365.webp"} number={"01"} caption={"إدخال جملة حساب مايكروسوفت في محرك البحث جوجل"}/>
 
-ثم عليك الضغط على الرابِط ```Microsoft 365: Login``` المُشار إليه بالرقم <StepNumber stepNumber={"2"}/>، ستظهر لك الواجهة في الصورة التالية:
+ثم عليك الضغط على الرابِط ```Microsoft 365: Login``` المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"2"}/>، ستظهر لك الواجهة في الصورة التالية:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-2-microsoft-365-to-sign-up-page.webp"} number={"02"} caption={"واجهة تسجيل الدخول إلى مايكروسوفت 365 أو إنشاء حساب مايكروسوفت جديد"}/>
 
@@ -87,24 +90,24 @@ import Video from "../../components/Video";
 بعد ذلك عليك الضغط على الزر المُشار إليه بسهم في الصورة 03 لتظهر لك الواجهة التالية:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-4-choose-email-type.webp"} number={"04"} caption={"إختيار نوع البريد الإلكتروني الذي تريده (outlook أو hotmail)"}/>
-يمكنك الإختيار بالنقر على الرقم <StepNumber stepNumber={"1"}/> بين بريد من نوع ```outlook``` أو بريد ```hotmail```، أنا اخترت الخيار الأول المُشار إليه بالرقم <StepNumber stepNumber={"2"}/> كما في الصورة 03. ثم عليك كتابة البريد الذي تريد كما في الصورة التالية:
+يمكنك الإختيار بالنقر على الرقم <GrayBoldStepNumber stepNumber={"1"}/> بين بريد من نوع ```outlook``` أو بريد ```hotmail```، أنا اخترت الخيار الأول المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"2"}/> كما في الصورة 03. ثم عليك كتابة البريد الذي تريد كما في الصورة التالية:
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-5-type-in-the-email.webp"} number={"05"} caption={"كتابة البريد الإلكتروني الجديد الذي تريده"}/>
 
-عليك اختيار عنوان بريدٍ يَسهل تذكّره، ثم الشروع في الكتابة في الخانة المُشار إليها بالرقم <StepNumber stepNumber={"1"} />، ثم الضغط على الزر المُشار إليه بالرقم <StepNumber stepNumber={"2"}/> من الصورة السابقة. لتنتقل إلى الواجهة الموالية:
+عليك اختيار عنوان بريدٍ يَسهل تذكّره، ثم الشروع في الكتابة في الخانة المُشار إليها بالرقم <GrayBoldStepNumber stepNumber={"1"} />، ثم الضغط على الزر المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"2"}/> من الصورة السابقة. لتنتقل إلى الواجهة الموالية:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-6-type-in-the-password.webp"} number={"06"} caption={"واجهة كتابة كلمة المرور"}/>
 
-هذه الواجهة تحتوي على عنوان البريد الإلكتروني الذي كتبته سابقا، يمكنك تغييره بالضغط على السهم المُشار إليه بالرقم <StepNumber stepNumber={"1"} />. ثم خانة كتابة كلمة المرور في الرقم <StepNumber stepNumber={"2"} />، يجب الإشارة أنه عند الشروع في كتابة كلمة المرور ستظهر هذه الأخيرة على شكل نقط، لكن يمكنك إظهار كلمة المرور بالنقر بزر الفأرة الأيسر على المربع المُشارِ إليه بالرقم <StepNumber stepNumber={"3"} />، كما هو مُبين في ```الصورة 06```.
+هذه الواجهة تحتوي على عنوان البريد الإلكتروني الذي كتبته سابقا، يمكنك تغييره بالضغط على السهم المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"1"} />. ثم خانة كتابة كلمة المرور في الرقم <GrayBoldStepNumber stepNumber={"2"} />، يجب الإشارة أنه عند الشروع في كتابة كلمة المرور ستظهر هذه الأخيرة على شكل نقط، لكن يمكنك إظهار كلمة المرور بالنقر بزر الفأرة الأيسر على المربع المُشارِ إليه بالرقم <GrayBoldStepNumber stepNumber={"3"} />، كما هو مُبين في ```الصورة 06```.
 
 
 في الصورة التالية نجد كلمة المرور معبئة و تظهر على شكل نِقاط:
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-7-type-in-the-password-1.webp"} number={"07"} caption={"كتابة كلمة المرور"}/>
 
-ولإظهار كلمة المرور يجب أن يكون المربع المُجاوِر لجملة إظهار كلمة المرور ملونا بالأزرق و تتوسطه علامة ✔، كما هو مبين بالرقم <StepNumber stepNumber={"2"} /> من الصورة التالية:
+ولإظهار كلمة المرور يجب أن يكون المربع المُجاوِر لجملة إظهار كلمة المرور ملونا بالأزرق و تتوسطه علامة ✔، كما هو مبين بالرقم <GrayBoldStepNumber stepNumber={"2"} /> من الصورة التالية:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-8-show-password-and-next.webp"} number={"08"} caption={"التأكد من كلمة المرور و إنشاء كلمة المرور"}/>
 
-بعد ذلك سننتقل إلى المرحلة التالية، فيها نقوم، تحت الرقم <StepNumber stepNumber={"1"} />، باختبار البلد أو المنطقة، ثم بعد ذلك في الرقم <StepNumber stepNumber={"2"} /> نكتب يوم ميلادنا، ثم في الرقم <StepNumber stepNumber={"3"} />، نختار الشهر، ثم في الرقم <StepNumber stepNumber={"4"} /> نقوم باختبار السنة. وفي الأخير بعد التأكد من المعلومات التي أدخنا، نقوم بالنقر على الزر المُشار إليه بالرقم <StepNumber stepNumber={"5"} /> من ```الصورة 09```، لننتقل إلى المرحلة التي بعدها.
+بعد ذلك سننتقل إلى المرحلة التالية، فيها نقوم، تحت الرقم <GrayBoldStepNumber stepNumber={"1"} />، باختبار البلد أو المنطقة، Boldثم بعد ذلك في الرقم <GrayBoldStepNumber stepNumber={"2"} /> نكتب يوم ميلادنا، ثم في الرقم <GrayBoldStepNumber stepNumber={"3"} />، نختار الشهر، ثم في الرقم <GrayBoldStepNumber stepNumber={"4"} /> نقوم باختبار السنة. وفي الأخير بعد التأكد من المعلومات التي أدخنا، نقوم بالنقر على الزر المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"5"} /> من ```الصورة 09```، لننتقل إلى المرحلة التي بعدها.
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-9-country-and-birthdate.webp"} number={"09"} caption={"إختيار البلد و إدخال تاريخ الإزدياد"}/>
 
@@ -114,10 +117,10 @@ import Video from "../../components/Video";
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-10-0-enter-robot-checking.webp"} number={"10"} caption={"الدخول إلى مرحلة التحقق من أنك إنسان "}/>
 
-تقنية التأكد من أن المستخدم إنسان تعتمد على الصور، ففي الصورة التالية، يجب على المستخدم أن يُحرك الصورة المُشار إليها بالرقم <StepNumber stepNumber={"2"} />، لِتصبح تستقبل نفس اتجاه الصورة المُشار إليها بالرقم <StepNumber stepNumber={"1"} />، و ذلك باستعمال الأزرار المُشار إليهما بالرقم <StepNumber stepNumber={"3"} />، لتحريك الصورة باتجاه اليمين، وبالرقم <StepNumber stepNumber={"4"} />، باتجاه اليسار.
+تقنية التأكد من أن المستخدم إنسان تعتمد على الصور، ففي الصورة التالية، يجب على المستخدم أن يُحرك الصورة المُشار إليها بالرقم <GrayBoldStepNumber stepNumber={"2"} />، لِتصبح تستقبل نفس اتجاه الصورة المُشار إليها بالرقم <GrayBoldStepNumber stepNumber={"1"} />، و ذلك باستعمال الأزرار المُشار إليهما بالرقم <GrayBoldStepNumber stepNumber={"3"} />، لتحريك الصورة باتجاه اليمين، وبالرقم <GrayBoldStepNumber stepNumber={"4"} />، باتجاه اليسار.
 
 
- و عند حصولك على نتيجة مشابِهة لما في ```الصورة 11```، قم بالضغط على زر ```إرسال```، المُشار إليه بالرقم <StepNumber stepNumber={"5"} />.
+ و عند حصولك على نتيجة مشابِهة لما في ```الصورة 11```، قم بالضغط على زر ```إرسال```، المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"5"} />.
 
 
 
@@ -128,11 +131,11 @@ import Video from "../../components/Video";
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-11-robot-captcha-progress.webp"} number={"12"} caption={"المراحل المتبقية من التحقق أن المستخدم إنسان وليس برمجية آلية"}/>
 
-في المرحلة القادِمة، سيتعين على المُستخدم كتابة الإسم الشخصي في الخانة بالرقم <StepNumber stepNumber={"1"} />، ثم الإسم العائلي أو النسب في الخانة بالرقم <StepNumber stepNumber={"2"} />. ثم الضغط على الزر بالرقم <StepNumber stepNumber={"3"} /> من الصورة التالية:
+في المرحلة القادِمة، سيتعين على المُستخدم كتابة الإسم الشخصي في الخانة بالرقم <GrayBoldStepNumber stepNumber={"1"} />، ثم الإسم العائلي أو النسب في الخانة بالرقم <GrayBoldStepNumber stepNumber={"2"} />. ثم الضغط على الزر بالرقم <GrayBoldStepNumber stepNumber={"3"} /> من الصورة التالية:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-12-type-in-name.webp"} number={"13"} caption={"واجهة كتابة الإسم الكامل"}/>
 
-تبقى آخر مرحلة هي الإختيار بين الإحتفاظ بحسابك مسجلا على هذا الجهاز، أي لن تحتاج إدخال الحساب و كلمة المرور في أي مرة أردت استعمال خدمة مايكروسوفت 365 الرقم <StepNumber stepNumber={"3"} />. أو يمكنك الرفض بالرقم <StepNumber stepNumber={"2"} />. وأيضا يمكنك منع هذه الواجهة من الظهر كيف ما كان اختيارك بالضغط على المربع المُشار إليه بالرقم <StepNumber stepNumber={"1"} /> من الصورة التالية:
+تبقى آخر مرحلة هي الإختيار بين الإحتفاظ بحسابك مسجلا على هذا الجهاز، أي لن تحتاج إدخال الحساب و كلمة المرور في أي مرة أردت استعمال خدمة مايكروسوفت 365 الرقم <GrayBoldStepNumber stepNumber={"3"} />. أو يمكنك الرفض بالرقم <GrayBoldStepNumber stepNumber={"2"} />. وأيضا يمكنك منع هذه الواجهة من الظهر كيف ما كان اختيارك بالضغط على المربع المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"1"} /> من الصورة التالية:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/2-13-keep-account-logged-in.webp"} number={"14"} caption={"الاحتفاظ بالحساب مفتوحاً على هذا الجهاز"}/>
 
@@ -143,7 +146,7 @@ import Video from "../../components/Video";
 
 # 3-الوصول إلى مايكروسوفت وورد اون لاين
 
-للوصول إلى واجهة تسجيل الدخول الخاصة بمايكروسوفت 365 (التسمية الجديد ل Office 365 قديماً)، يمكنك النقر على <InPostCustomLink linkTitle={"هذا الرابط"} href={"https://www.office.com/?omkt=ar-SA"}/>، أو يمكنك البحث على جملة ```وورد اون لاين``` على محرك البحث جوجل، كما هو مُوضّح بالرقم <StepNumber stepNumber={"1"} /> من ```الصورة 15``` ، ثم النقر على الرابِط المُشار إليه بالرقم <StepNumber stepNumber={"2"} /> من نفس الصورة، كما هو مبين:
+للوصول إلى واجهة تسجيل الدخول الخاصة بمايكروسوفت 365 (التسمية الجديد ل Office 365 قديماً)، يمكنك النقر على <InPostCustomLink linkTitle={"هذا الرابط"} href={"https://www.office.com/?omkt=ar-SA"}/>، أو يمكنك البحث على جملة ```وورد اون لاين``` على محرك البحث جوجل، كما هو مُوضّح بالرقم <GrayBoldStepNumber stepNumber={"1"} /> من ```الصورة 15``` ، ثم النقر على الرابِط المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"2"} /> من نفس الصورة، كما هو مبين:
 
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/3-1-search-for-word-online.webp"} number={"15"} caption={"البحث عن وورد اون لاين في محرك البحث جوجل"}/>
@@ -152,37 +155,37 @@ import Video from "../../components/Video";
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/3-2-to-sign-in-page.webp"} number={"16"} caption={"واجهة الذهاب إلى صفحة تسجيل الدخول"}/>
 
-ستظهر لك صفحة باللغة الإنجليزية أو أي لغة أجنبية أخرى، هذه الواجهة (الصورة 17) ستمكننا من كتابة عنوان بريدنا الإلكتروني، عنوان outlook أو hotmail في الخانة المُشار إليها بالرقم <StepNumber stepNumber={"1"} />، ثم النقر على الزر المُشار إليه بالرقم <StepNumber stepNumber={"2"} />، لننتقل إلى المرحلة الآتية. والصورة التالية تمثل الواجهة التي شرحت:
+ستظهر لك صفحة باللغة الإنجليزية أو أي لغة أجنبية أخرى، هذه الواجهة (الصورة 17) ستمكننا من كتابة عنوان بريدنا الإلكتروني، عنوان outlook أو hotmail في الخانة المُشار إليها بالرقم <GrayBoldStepNumber stepNumber={"1"} />، ثم النقر على الزر المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"2"} />، لننتقل إلى المرحلة الآتية. والصورة التالية تمثل الواجهة التي شرحت:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/3-3-type-in-email.webp"} number={"17"} caption={"واجهة كتابة عنوان البريد الإلكتروني التابع لمايكروسوفت"}/>
 
-تليها عملية إدخال كلمة المرور، حيث تتم كتابتها في الخانة المُشار إليها بالرقم <StepNumber stepNumber={"1"} />، ثم النقر على الزر المُبين بالرقم <StepNumber stepNumber={"2"} /> من الصورة الآتية:
+تليها عملية إدخال كلمة المرور، حيث تتم كتابتها في الخانة المُشار إليها بالرقم <GrayBoldStepNumber stepNumber={"1"} />، ثم النقر على الزر المُبين بالرقم <GrayBoldStepNumber stepNumber={"2"} /> من الصورة الآتية:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/3-4-type-in-password.webp"} number={"18"} caption={"واجهة كتابة كلمة المرور الخاصة بالبريد الإلكتروني"}/>
 
 في حالة أن عنوان البريد الإلكتروني الذي أدخلنا لا يتوفر على طريقة للاسترجاع، هنا ستطلب منا مايكروسوفت أن نقوم بإضافة عنوان أو رقم هاتف يستعمل لحماية هذا الحساب من الضياع أو الإختراق.
 
-حيث ستجد في الصورة الآتية الإختيار بين إضافة بريد إلكتروني أو رقم هاتف (الرقم <StepNumber stepNumber={"1"} /> من الصورة 19)، أنا اخترت إضافة بريد إلكتروني بالنقر على الخيار بالرقم <StepNumber stepNumber={"2"} />. كما في الصورة الآتية:
+حيث ستجد في الصورة الآتية الإختيار بين إضافة بريد إلكتروني أو رقم هاتف (الرقم <GrayBoldStepNumber stepNumber={"1"} /> من الصورة 19)، أنا اخترت إضافة بريد إلكتروني بالنقر على الخيار بالرقم <GrayBoldStepNumber stepNumber={"2"} />. كما في الصورة الآتية:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/3-5-1-protect-email-choose-recovery-option.webp"} number={"19"} caption={"اختيار طريقة استرجاع الولوج إلى البريد عبر بريد إلكتروني مختلف"}/>
 
-تجدر الإشارة أنه يمكن تخطي هذه الخطوة وأن كنت أنصحك بعد التخطي، يمكن فعل ذلك بالنقر على الرابط المُشار إليه بالرقم <StepNumber stepNumber={"1"} /> من ```الصورة 20```، ليتم تذكيرك بهذه المرحلة بعد ستة (06) أيام...
+تجدر الإشارة أنه يمكن تخطي هذه الخطوة وأن كنت أنصحك بعد التخطي، يمكن فعل ذلك بالنقر على الرابط المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"1"} /> من ```الصورة 20```، ليتم تذكيرك بهذه المرحلة بعد ستة (06) أيام...
 
-ولإضافة البريد الإلكتروني، يجب كتابته (بشرط توفرك على كلمة المرور الخاصة به)، في الخانة المُرقّمة بالرقم <StepNumber stepNumber={"2"} />، ثم النقر على الزر المُشار إليه بالرقم <StepNumber stepNumber={"3"} />، كما هو مُبين في الصورة التالية:
+ولإضافة البريد الإلكتروني، يجب كتابته (بشرط توفرك على كلمة المرور الخاصة به)، في الخانة المُرقّمة بالرقم <GrayBoldStepNumber stepNumber={"2"} />، ثم النقر على الزر المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"3"} />، كما هو مُبين في الصورة التالية:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/3-5-2-protect-email-type-in-email-or-skip.webp"} number={"20"} caption={"واجهة تخطي مرحلة إضافة بريد لاسترجاع البريد الإلكتروني " +
     "أو إدخال عنوان استرجاع البريد الإلكتروني "}/>
 
-أيضا يمكنك تخطي هذه المرحلة بالنقر على الرابِط المُرقم ب <StepNumber stepNumber={"1"} />، ليتم تذكيرك بهذه المرحلة بعد ستة (06) أيام.
+أيضا يمكنك تخطي هذه المرحلة بالنقر على الرابِط المُرقم ب <GrayBoldStepNumber stepNumber={"1"} />، ليتم تذكيرك بهذه المرحلة بعد ستة (06) أيام.
 
-سيتم إرسال رسالة إلى البريد الإلكتروني الذي أضفته تحت عنوان ```Microsoft account security code```، ستجد داخله الرمز الذي ستستعمله في الواجهة الآتية، و ذلك بإدخاله في الخانة المُرقمة بالرقم <StepNumber stepNumber={"2"} />، ثم النقر على الزر المُشار إليه بالرقم <StepNumber stepNumber={"3"} /> من الصورة التالية:
+سيتم إرسال رسالة إلى البريد الإلكتروني الذي أضفته تحت عنوان ```Microsoft account security code```، ستجد داخله الرمز الذي ستستعمله في الواجهة الآتية، و ذلك بإدخاله في الخانة المُرقمة بالرقم <GrayBoldStepNumber stepNumber={"2"} />، ثم النقر على الزر المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"3"} /> من الصورة التالية:
 
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/3-5-3-enter-code-received-via-email.webp"} number={"21"} caption={"واجهة تخطي هذه المرحلة أو إدخال الرمز الذي أرسل إلى بريد الإسترجاع"}/>
 
-قد تظهر لك واجهة تسألك حول الإحتفاظ بالحساب مفتوحاً على هذا الجهاز، إذا كان اختيارك نعم، قم بالنقر علة الزر المُشار إليه بالرقم <StepNumber stepNumber={"2"} />، أما إذا كان خيارك هو عدم الإحتفاظ بالحساب مفتوحا (هو اختياري أيضا بالمناسبة)، فقم بالنقر على الزر المُرقم ب <StepNumber stepNumber={"3"} />.
+قد تظهر لك واجهة تسألك حول الإحتفاظ بالحساب مفتوحاً على هذا الجهاز، إذا كان اختيارك نعم، قم بالنقر علة الزر المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"2"} />، أما إذا كان خيارك هو عدم الإحتفاظ بالحساب مفتوحا (هو اختياري أيضا بالمناسبة)، فقم بالنقر على الزر المُرقم ب <GrayBoldStepNumber stepNumber={"3"} />.
 
-يمكنك منع هذه الواجهة من الظهور مجددا على هذا الجهاز بالنقر على المُربع المُشار إليه بالرقم <StepNumber stepNumber={"1"} />، كما هو مبين في الصورة الآتية:
+يمكنك منع هذه الواجهة من الظهور مجددا على هذا الجهاز بالنقر على المُربع المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"1"} />، كما هو مبين في الصورة الآتية:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/3-6-stay-logged-in.webp"} number={"22"} caption={"واجهة الإحتفاظ بالحساب مفتوحا على هذا الجهاز"}/>
 
@@ -190,7 +193,9 @@ import Video from "../../components/Video";
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/3-7-microsoft-365-welcome-page.webp"} number={"23"} caption={"واجهة الترحيب الخاصة بمايكروسوفت 365"}/>
 
-بعد ولوج وورد اون لاين، ستجده يقدم لك مجموعة من القوالب الجاهزة والمجانية (يمكن شراء قوالب أيضا)، والمُشار إليها بالرقم <StepNumber stepNumber={"1"} />. و يمكنك إنشاء مستند فارغ أيضا من هذه الواجهة بالنقر على الزر المُرَقّمِ ب <StepNumber stepNumber={"2"} /> من الصورة التالية:
+بعد ولوج وورد اون لاين، ستجده يقدم لك مجموعة من القوالب الجاهزة والمجانية (يمكن شراء قوالب أيضا)، والمُشار إليها بالرقم <GrayBoldStepNumber stepNumber={"1"} />. و يمكنك إنشاء مستند فارغ أيضا من هذه الواجهة بالنقر على الزر المُرَقّمِ ب <GrayBoldStepNumber stepNumber={"2"} /> من الصورة التالية:
+
+
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/3-8-word-online-welcome-page.webp"} number={"24"} caption={"واجهة الترحيب الخاصة ب وورد اون لاين"}/>
 
@@ -272,11 +277,11 @@ import Video from "../../components/Video";
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/5-2-empty-doc-ui.webp"} number={"26"} caption={"واجهة مستند جديد فارغ على  وورد اون لاين مع الشرح لأهم ثلاث عناصر"}/>
 
-يتكون أي مستند في وورد أون لاين من ثلاث عناصر رئيسة، عنوان المستند والذي تم ترقيمه بالرقم <StepNumber stepNumber={"1"} /> في الصورة أعلاه، ثم تليه المساحة المخصصة للكتابة والمُشار إليها بالرقم <StepNumber stepNumber={"2"} /> من نفس الصورة، ثم أخيرا شريط الأدوات وهو الذي بالرقم <StepNumber stepNumber={"3"} /> في الصورة إعلاه.
+يتكون أي مستند في وورد أون لاين من ثلاث عناصر رئيسة، عنوان المستند والذي تم ترقيمه بالرقم <GrayBoldStepNumber stepNumber={"1"} /> في الصورة أعلاه، ثم تليه المساحة المخصصة للكتابة والمُشار إليها بالرقم <GrayBoldStepNumber stepNumber={"2"} /> من نفس الصورة، ثم أخيرا شريط الأدوات وهو الذي بالرقم <GrayBoldStepNumber stepNumber={"3"} /> في الصورة إعلاه.
 
 ## إنشاء مستند جديد إنطلاقا من قائمة الملف
 
-يمكن إنشاء مستند جديد من داخل أي مستند مفتوح، وذلك النقر على قائمة الخيارات ```ملف``` المُشار إليها بالرقم <StepNumber stepNumber={"1"} /> من الصورة الآتية، ثم النقر على ```جديد``` المُرقمة بالرقم <StepNumber stepNumber={"2"} />، بعدها تظهر قائمة بخيارين، الأول ```مستند فارغ``` مُشار إليه بالرقم <StepNumber stepNumber={"3"} />، و الثاني ```عرض القوالب``` بالرقم <StepNumber stepNumber={"4"} />. والصورة 27 تمثل شرح للخطوات:
+يمكن إنشاء مستند جديد من داخل أي مستند مفتوح، وذلك النقر على قائمة الخيارات ```ملف``` المُشار إليها بالرقم <GrayBoldStepNumber stepNumber={"1"} /> من الصورة الآتية، ثم النقر على ```جديد``` المُرقمة بالرقم <GrayBoldStepNumber stepNumber={"2"} />، بعدها تظهر قائمة بخيارين، الأول ```مستند فارغ``` مُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"3"} />، و الثاني ```عرض القوالب``` بالرقم <GrayBoldStepNumber stepNumber={"4"} />. والصورة 27 تمثل شرح للخطوات:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/5-3-open-new-doc-from-already-opened-doc.webp"} number={"27"} caption={"واجهة طريقة إنشاء مستند جديد انطلاقا من مستند مفتوح"}/>
 
@@ -290,7 +295,7 @@ import Video from "../../components/Video";
 
 ### مستند جديد من قالب جاهز
 
-الخيار المُشار إليه بالرقم <StepNumber stepNumber={"4"} /> من الصورة 27، يعطينا واجهة شبيهة بالتي في الصورة السابقة، حيث يمكننا الإختيار بين عدة قوالب، الصورة :
+الخيار المُشار إليه بالرقم <GrayBoldStepNumber stepNumber={"4"} /> من الصورة 27، يعطينا واجهة شبيهة بالتي في الصورة السابقة، حيث يمكننا الإختيار بين عدة قوالب، الصورة :
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/5-5-choose-callandar-template.webp"} number={"29"} caption={"واجهة اختيار إنشاء مستند جديد من خلال اختيار قالب تقويم سنة ميلادية"}/>
 
@@ -340,7 +345,7 @@ import Video from "../../components/Video";
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/6-5-on-light-mode-dark-mode-is-not-on-in-word-empty-doc.webp"} number={"37"} caption={"لم يتم تفعيل الوضع الداكن على مستوى مستند مفتوح على وورد اون لاين"}/>
 
-يمكنك اتباع هذه الخطوات لتفعيل الوضع الداكم على مُستوى المُستندِ أيضا، عليك النقر على قائمة ```عرض``` المُشار إليها بالرقم <StepNumber stepNumber={"1"} />، ثم النقر على الزر الذي يحمل إسم ```الوضع الداكن``` المُرقم بالرقم <StepNumber stepNumber={"2"} />. كما هو مبين في الصورة 38:
+يمكنك اتباع هذه الخطوات لتفعيل الوضع الداكم على مُستوى المُستندِ أيضا، عليك النقر على قائمة ```عرض``` المُشار إليها بالرقم <GrayBoldStepNumber stepNumber={"1"} />، ثم النقر على الزر الذي يحمل إسم ```الوضع الداكن``` المُرقم بالرقم <GrayBoldStepNumber stepNumber={"2"} />. كما هو مبين في الصورة 38:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/6-6-on-light-mode-toggle-dark-mode-in-new-doc-scope.webp"} number={"38"} caption={"تفعيل الوضع الداكن على مستوى المُستند المفتوح"}/>
 
@@ -376,36 +381,122 @@ import Video from "../../components/Video";
 
 # 7-التعديل والتنسيق في وورد اون لاين
 
+في هذه الفقرة سأقوم بشرح كل من أدوات ```الشريط الرئيسي```، وأدوات ```الإدراج```، وأيضا أدوات ```التخطيط```، المُؤطرة في الصورة الآتية:
+
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-1-editing-and-formatting-stripe.webp"} number={"45"} caption={"الشريط الرئيسي للتعديل والتنسيق"}/>
 
+يمكن  تقسيم هذه الأدوات على ثلاث (03) أقسام، منها من هو مسؤول عن تنسيق النص، ومنها من تكون وضيفته تنسيق الفقرات، و أخرى تفيد في التنسيق التلقائي، و أخيرا أدوات تساعد على تنسيق الصفحات.
+
+سيتم شرح كُلٍّ منها و إعطاء أمثلة على كيفة استعمالها في ما يلي:
 
 ## أدوات تنسيق النصوص
 
+يُقدم وورد اون لاين مجموعة من الأدوات المُساعدة على تنظيم النصوص، والتي نجد مُعْظمها داخل الشريط الرَّئِيسي والمُقسّمة بدورها إلى ثمان (08) أقسامٍ، وهي :
 
-  المرحلة رقم: <StepNumber stepNumber={"1"} color={"darkblue"} fontWeight={"bolder"}/>
+<NumberedList>
+    <li>تراجع</li>
+    <li>الحافظة</li>
+    <li>خط</li>
+    <li>فقرة</li>
+    <li>أنماط</li>
+    <li>تحرير</li>
+    <li>صوت</li>
+    <li>الوظائف الإضافية</li>
+
+</NumberedList>
+
+هناك أقسام خاصة بتنسيق النصوص و هناك أقسام خاصة بتنسيق الفقرات أو الصفحة و غيرها.
+
+### تراجع
+
+هذه الأداة تمكن الكاتب من الرجوع للخلف، أي الرجوع بحالة النص أو التنسيق خطوة للخلف وذلك بالنقر على الزر المُشار إليه بالرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"1"}/>  ، ويمكنك التقدم للأمام (إذا توفرت إمكانية ذلك) خطوة واحدة بنقرة واحدة بالزر المُرقم بالرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"2"}/> في الصورة 47:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-2-section-1.webp"} number={"47"} caption={"قسم التراجع للخلف أو التقدم للأمام"}/>
 
+
+ملاحظة: للرجوع عدة مرات للخلف أو التقدم عدت مرات للأمام يجب النقر عدة مرات على الأَيْقونات السابقة.
+
+----
+فيديو هنا
+
+----
+
+### الحافظة
+
+يحتوي هذا القسم على أربعة (04) أدوات، أوّلُها أداة اللّصق المُشار إليها بالرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"1"}/>، حيث عند النقر على السهم المتوجه للأسف، ستظهر لائحة بخيارين، الخِيار الأول يمكننا من لصق النص فقط، يجب ان نقون قد نسخناه سابقا، ثم الخِيار الثاني يمكننا من نسخ النص مع التنسيقات الأصلية.
+
+
+ثم نجد الأذاتين الخاصتين بعمليه النسخ (Copy) و القص (Paste)، نبدأ بالرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"2"}/> من الصورة 48 التي تُمثل أداة القص حيث تُستعمل لقَصّ النص و الإحتفاظ به في (RAM) الخاصة بالجهاز ليتم لصقه في موضِع آخر، وأيضا نجد لأذاة النسخ نفس الوظيفة مع اختلاف بسيط و هو عدم حذف النص الأصلي وهي الأذاة المُشار إليها بالرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"3"}/>
+من الصورة 48.
+
+و أخيرا يشير الرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"4"}/> إلى أذاة نسخ التنسيق، والتي يمكن استعمالها لنسخ جزء من المُستندِ نفسه، وذلك بتحديد الجزء المُراد نسخ تنسيقه، ثم النقر على الأذاة و بعدها تطبيق التنسيق بتحديد الجزء لتطبيق التنسيق.
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-3-section-2.webp"} number={"48"} caption={"قسم اللصق و إزالة التنسيق"}/>
+
+
+----
+فيديو هنا
+
+----
+### خط
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-4-section-3.webp"} number={"49"} caption={"قسم تنسيق النصوص"}/>
 
+
+----
+فيديو هنا
+
+----
+### أنماط
+
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-6-section-5.webp"} number={"51"} caption={"قسم اختيار النمط"}/>
+
+
+----
+فيديو هنا
+
+----
+
+### تحرير
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-7-section-6.webp"} number={"52"} caption={"قسم البحث والاستبدال"}/>
 
 
+----
+فيديو هنا
+
+----
+
+### صوت
+
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-8-section-7.webp"} number={"53"} caption={"قسم الإملاء بالصوت"}/>
 
-<Figure client:visible pathToAssetImage={"microsoft-word-online/7-9-section-8.webp"} number={"54"} caption={"قسم الوظائف الإضافية"}/>
+
+----
+هل يمكن إضافة فيديو هنا؟
+
+----
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 ## تنسيق الفقرات
 
+### فقرة
+
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-5-section-4.webp"} number={"50"} caption={"قسم تنسيق الفقرات"}/>
+
+
 
 ## إدراج الجداول والعناصر الأخرى
 
@@ -423,6 +514,7 @@ import Video from "../../components/Video";
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-14-insert-section-4.webp"} number={"57"} caption={"قسم جدول المحتويات"}/>
 
 
+<Figure client:visible pathToAssetImage={"microsoft-word-online/7-9-section-8.webp"} number={"54"} caption={"قسم الوظائف الإضافية"}/>
 
 ## تنسيق الصفحات
 

@@ -24,7 +24,6 @@ export default function CoverImage({ lightThemeSrc, darkThemeSrc,alt, photoArtis
         setLStorageTheme(theme);
         setIsDark(setIsDarkFromLocalStorage(lStorageTheme));
 
-        console.log(isDark);
 
 
     }, [lStorageTheme,isDark]);
