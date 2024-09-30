@@ -23,6 +23,8 @@ import GrayBoldStepNumberWithBorderAndPadding from "../../components/GrayBoldSte
 import Figure from "../../components/Figure";
 import Video from "../../components/Video";
 import NumberedList from "../../components/NumberedList";
+import InlineImage from "../../components/InlineImage";
+
 
 <CoverImage alt={"مكتب باللون البرتقالي والأزرق"}
             photoUrl={"https://www.pexels.com/photo/brown-wooden-desk-with-rolling-chair-and-shelves-near-window-667838"}
@@ -409,7 +411,7 @@ import NumberedList from "../../components/NumberedList";
 
 ### تراجع
 
-هذه الأداة تمكن الكاتب من الرجوع للخلف، أي الرجوع بحالة النص أو التنسيق خطوة للخلف وذلك بالنقر على الزر المُشار إليه بالرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"1"}/>  ، ويمكنك التقدم للأمام (إذا توفرت إمكانية ذلك) خطوة واحدة بنقرة واحدة بالزر المُرقم بالرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"2"}/> في الصورة 47:
+هذه الأداة تمكن الكاتب من الرجوع للخلف، أي الرجوع بحالة النص أو التنسيق خطوة للخلف وذلك بالنقر على الزر المُشار إليه بالرقم <GrayBoldStepNumber client:visible stepNumber={"1"}/>  ، ويمكنك التقدم للأمام (إذا توفرت إمكانية ذلك) خطوة واحدة بنقرة واحدة بالزر المُرقم بالرقم <GrayBoldStepNumber client:visible stepNumber={"2"}/> في الصورة 47:
 
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-2-section-1.webp"} number={"47"} caption={"قسم التراجع للخلف أو التقدم للأمام"}/>
 
@@ -423,13 +425,13 @@ import NumberedList from "../../components/NumberedList";
 
 ### الحافظة
 
-يحتوي هذا القسم على أربعة (04) أدوات، أوّلُها أداة اللّصق المُشار إليها بالرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"1"}/>، حيث عند النقر على السهم المتوجه للأسف، ستظهر لائحة بخيارين، الخِيار الأول يمكننا من لصق النص فقط، يجب ان نقون قد نسخناه سابقا، ثم الخِيار الثاني يمكننا من نسخ النص مع التنسيقات الأصلية.
+يحتوي هذا القسم على أربعة (04) أدوات، أوّلُها أداة اللّصق المُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"1"}/>، حيث عند النقر على السهم المتوجه للأسف، ستظهر لائحة بخيارين، الخِيار الأول يمكننا من لصق النص فقط، يجب ان نقون قد نسخناه سابقا، ثم الخِيار الثاني يمكننا من نسخ النص مع التنسيقات الأصلية.
 
 
-ثم نجد الأذاتين الخاصتين بعمليه النسخ (Copy) و القص (Paste)، نبدأ بالرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"2"}/> من الصورة 48 التي تُمثل أداة القص حيث تُستعمل لقَصّ النص و الإحتفاظ به في (RAM) الخاصة بالجهاز ليتم لصقه في موضِع آخر، وأيضا نجد لأذاة النسخ نفس الوظيفة مع اختلاف بسيط و هو عدم حذف النص الأصلي وهي الأذاة المُشار إليها بالرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"3"}/>
+ثم نجد الأذاتين الخاصتين بعمليه النسخ (Copy) و القص (Paste)، نبدأ بالرقم <GrayBoldStepNumber client:visible stepNumber={"2"}/> من الصورة 48 التي تُمثل أداة القص حيث تُستعمل لقَصّ النص و الإحتفاظ به في (RAM) الخاصة بالجهاز ليتم لصقه في موضِع آخر، وأيضا نجد لأذاة النسخ نفس الوظيفة مع اختلاف بسيط و هو عدم حذف النص الأصلي وهي الأذاة المُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"3"}/>
 من الصورة 48.
 
-و أخيرا يشير الرقم <GrayBoldStepNumberWithBorderAndPadding client:visible stepNumber={"4"}/> إلى أذاة نسخ التنسيق، والتي يمكن استعمالها لنسخ جزء من المُستندِ نفسه، وذلك بتحديد الجزء المُراد نسخ تنسيقه، ثم النقر على الأذاة و بعدها تطبيق التنسيق بتحديد الجزء لتطبيق التنسيق.
+و أخيرا يشير الرقم <GrayBoldStepNumber client:visible stepNumber={"4"}/> إلى أذاة نسخ التنسيق، والتي يمكن استعمالها لنسخ جزء من المُستندِ نفسه، وذلك بتحديد الجزء المُراد نسخ تنسيقه، ثم النقر على الأذاة و بعدها تطبيق التنسيق بتحديد الجزء لتطبيق التنسيق.
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-3-section-2.webp"} number={"48"} caption={"قسم اللصق و إزالة التنسيق"}/>
 
 
@@ -439,7 +441,28 @@ import NumberedList from "../../components/NumberedList";
 ----
 ### خط
 
+باستعمال هذه الأذاة يمكن التحكم في العديد من مزايا خطّ النص، حيث يمكن أختيار نوع الخط بين العديد من الخطور وذلك بالنقر على اللائحة المُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"1"}/>.
+
+وأيضا تكبير الخط أو تصغيره إما بإدخال الحجم في خانة الرقم المُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"2"}/> بالخط المائل، أو إختيار حجم الخط بالنقر على لائحة الأحجام بالنقر على الأيقونة المُرقمة بالرقم <GrayBoldStepNumber client:visible stepNumber={"2"}/> والخط المستوي. ويمكن القِيام العملية نفسها بالنقر على الأيقونة المُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"3"}/> لتكبير الخط، أو الأيقونة المُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"4"}/> لتصغيره.
+
+يمكن حذف جميع التنسيقات المُطبقة على جزء من المُستند أو المُستند كله باستعمال الأذاة المُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"5"}/>.
+
+
+لتثخين الخط ***Bold*** يمكن أستعمال الأذاة المُخصصة لذلك المُشار إليها بالحرف B المُثخّن، والمُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"6"}/>. كما يمكن تطبيق الشكل المائل على الخط بالنقر على الأذاة  بالحرف _I_، والمُشار إليه بالرقم <GrayBoldStepNumber client:visible stepNumber={"7"}/>. وللتسطير على كلمة أو سطر أو فِقرة يمكن تحقيق ذلك بالنقر على الأذاة المُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"8"}/>. وللتشطيب على عبارة أو كلمة يجب النّقر على الأذاة المُرقمة بالرقم <GrayBoldStepNumber client:visible stepNumber={"9"}/> بعد تحديد العبارة أولا.
+
+
+يمكن خفض الكلمة باستعمال الأذاة المُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"10"}/> كما في المثال الآتي  ، و يمكن رفعها بالنقر على الأذاة المُشار إليها بالرقم <GrayBoldStepNumber client:visible stepNumber={"11"}/> لنحصُل على نتيجة مشابهة لهذه .
+
+
+
+<InlineImage client:visible src={"/assets/images/microsoft-word-online/7-4-section-3-low-word.webp"} alt={"تطبيق رفع الكلمة"} />
+
+
+<InlineImage client:visible src={"/assets/images/microsoft-word-online/7-4-section-3-high-word.webp"} alt={"تطبيق رفع الكلمة"} />
+
+
 <Figure client:visible pathToAssetImage={"microsoft-word-online/7-4-section-3.webp"} number={"49"} caption={"قسم تنسيق النصوص"}/>
+
 
 
 ----
