@@ -164,6 +164,10 @@
   flex-direction:column;
   align-items:center
 }
+.video-container video{
+  border: 3px solid #FF6B01;
+
+}
 .video-caption{
   color:#FF6B01;
 }
