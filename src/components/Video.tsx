@@ -20,7 +20,7 @@ export default function Video({  pathToAssetVideo, caption,number, width } : Pro
                     <source src={`/assets/videos/${pathToAssetVideo}`} type="video/mp4"/>
                 </video>
 
-                <i className={"video-caption"}>`فيديو ${number}: ${caption}` </i>
+                <i className={"video-caption"}>   فيديو {number}: {caption}  </i>
                 <InPostCustomLink href={`/assets/videos/${pathToAssetVideo}`}
                                   linkTitle={"تحميل الفيديو"}/>
             </div>
