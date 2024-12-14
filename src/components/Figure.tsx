@@ -16,7 +16,7 @@ export default function Figure({  pathToAssetImage, caption,number } : Props) {
             <div className={"figure-container"}>
                 <img src={`/assets/images/${pathToAssetImage}`}
                      alt={`صورة: ${number}:  ${caption}`}/>
-                <i className={"figure-caption"}>{`صورة: ${number}:  ${caption}`}</i>
+                <i className={"figure-caption"}>{`صورة ${number}:  ${caption}`}</i>
             </div>
         )
 
