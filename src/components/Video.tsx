@@ -21,8 +21,7 @@ export default function Video({  pathToAssetVideo, caption,number, width } : Pro
                 </video>
 
                 <i className={"video-caption"}>   فيديو {number}: {caption}  </i>
-                <InPostCustomLink href={`/assets/videos/${pathToAssetVideo}`}
-                                  linkTitle={"تحميل الفيديو"}/>
+
             </div>
         )
 
