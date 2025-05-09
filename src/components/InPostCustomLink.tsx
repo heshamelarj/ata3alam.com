@@ -11,7 +11,7 @@ export default function InPostCustomLink({ href,linkTitle } : Props) {
 
   return (
     <>
-      <a href={href} className="bg-orange-800 p-1" target="_blank">{linkTitle}</a>
+      <a href={href} className=" " target="_blank">{linkTitle}</a>
     </>
   )
 }
