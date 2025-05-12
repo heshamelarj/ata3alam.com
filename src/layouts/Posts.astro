@@ -16,8 +16,12 @@ export interface Props {
 
 const { currentPage, totalPages, paginatedPosts } = Astro.props;
 ---
-
+<head>
+  <meta name="robots" content="noindex, follow">
+  <meta charset="UTF-8" />
+</head>
 <Layout title={`${SITE.title}| المقالات    `}>
+
   <Header activeNav="posts" />
   <Main pageTitle="المقالات" pageDesc="هذه صفحة تضم كل المقالات التي قمت بتدوينها.">
     <ul>
