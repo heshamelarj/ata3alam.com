@@ -20,18 +20,16 @@ export default defineConfig({
 
 
 
-
-        // if (/كيف-تستفيد-من-كتب-التنمية-الذاتية/.test(item.url)) {
-        //   item.changefreq = 'monthly';
-        //   item.lastmod = new Date();
-        //   item.priority = 0.9;
-        // }
-
+        if (!(/\/tags\//.test(item.url)) && !(/\/posts\/[1-5]/.test(item.url))) {
           item.changefreq = 'monthly';
-          item.priority = 0.5;
+          item.priority = 0.9;
+          return item;
+        }
 
 
-        return item;
+
+
+
       },
     }
   ), partytown({
