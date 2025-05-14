@@ -12,7 +12,10 @@ const posts = await getCollection("blog");
 
 let tags = getUniqueTags(posts);
 ---
-
+<head>
+  <meta name="robots" content="noindex, follow">
+  <meta charset="UTF-8" />
+</head>
 <Layout title={`Tags | ${SITE.title}`}>
   <Header activeNav="tags" />
   <Main pageTitle="العلامات" pageDesc="هذه صفحة تضم كل العلامات (#علامة) المستخدمة في كل المقالات التي قمت بتدوينها.">
