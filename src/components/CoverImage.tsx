@@ -33,7 +33,7 @@ export default function CoverImage({ lightThemeSrc, darkThemeSrc,alt, photoArtis
     {
         return (
             <>
-                <img src={darkThemeSrc} alt={alt}/>
+                <img src={darkThemeSrc} alt={alt}   loading="lazy" />
                 <small className={"artist-name"}>
                     <a href={photoUrl}>الصورة من طرف <strong>{photoArtistName}</strong> </a>
                 </small>
@@ -42,7 +42,7 @@ export default function CoverImage({ lightThemeSrc, darkThemeSrc,alt, photoArtis
     } else {
         return (
             <>
-                <img src={lightThemeSrc} alt={alt}/>
+                <img src={lightThemeSrc} alt={alt}   loading="lazy" />
                 <small className={"artist-name"}>
                     <a href={photoUrl}>الصورة من طرف <strong>{photoArtistName}</strong> </a>
                 </small>
