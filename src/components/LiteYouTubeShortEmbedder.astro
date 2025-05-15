@@ -1,0 +1,23 @@
+---
+// Props: id (video ID), title
+const {
+        id,
+        title = "شورت على اليوتيوب",
+        number = "00",
+        caption = "شورت للشرح",
+            } = Astro.props;
+
+---
+
+
+
+<div >
+  <lite-youtube class="video-container" videoid={id} style="background-image: url('/assets/channel-thumbnail.png');">
+    <a href=`https://youtube.com/short/${id}` class="lyt-playbtn" title="تشغيل المقطع">
+      <span class="lyt-visually-hidden">تشغيل الفيديو:  {title}</span>
+    </a>
+  </lite-youtube>
+  <i className={"video-caption"}>   مقطع شورت {number}: {caption}  </i>
+</div>
+
+

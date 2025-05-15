@@ -1,10 +1,12 @@
 import type { CollectionEntry } from "astro:content";
+
 import { useEffect, useRef, useState, useMemo } from "react";
 
 export interface Props {
     lightThemeSrc: string,
     darkThemeSrc: string,
     alt: string,
+
     photoUrl: string,
     photoArtistName: string,
 }
@@ -33,7 +35,7 @@ export default function CoverImage({ lightThemeSrc, darkThemeSrc,alt, photoArtis
     {
         return (
             <>
-                <img src={darkThemeSrc} alt={alt}   loading="lazy" />
+                <img src={darkThemeSrc} alt={alt} fetchPriority="high"  loading="eager" width="1200" height="630" />
                 <small className={"artist-name"}>
                     <a href={photoUrl}>الصورة من طرف <strong>{photoArtistName}</strong> </a>
                 </small>
@@ -42,7 +44,7 @@ export default function CoverImage({ lightThemeSrc, darkThemeSrc,alt, photoArtis
     } else {
         return (
             <>
-                <img src={lightThemeSrc} alt={alt}   loading="lazy" />
+                <img src={lightThemeSrc} alt={alt} fetchPriority="high"  loading="eager" width="1200" height="630" />
                 <small className={"artist-name"}>
                     <a href={photoUrl}>الصورة من طرف <strong>{photoArtistName}</strong> </a>
                 </small>
