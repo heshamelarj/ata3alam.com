@@ -35,7 +35,7 @@ export default function CoverImage({ lightThemeSrc, darkThemeSrc,alt, photoArtis
     {
         return (
             <>
-                <img src={darkThemeSrc} alt={alt} fetchPriority="high"  loading="eager" width="1200" height="630" />
+                <img src={darkThemeSrc} alt={alt}   loading="eager" width="1200" height="630" />
                 <small className={"artist-name"}>
                     <a href={photoUrl}>الصورة من طرف <strong>{photoArtistName}</strong> </a>
                 </small>
@@ -44,7 +44,7 @@ export default function CoverImage({ lightThemeSrc, darkThemeSrc,alt, photoArtis
     } else {
         return (
             <>
-                <img src={lightThemeSrc} alt={alt} fetchPriority="high"  loading="eager" width="1200" height="630" />
+                <img src={lightThemeSrc} alt={alt}   loading="eager" width="1200" height="630" />
                 <small className={"artist-name"}>
                     <a href={photoUrl}>الصورة من طرف <strong>{photoArtistName}</strong> </a>
                 </small>
