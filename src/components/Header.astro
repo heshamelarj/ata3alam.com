@@ -18,10 +18,13 @@ const { activeNav } = Astro.props;
         {
           LOGO_IMAGE.enable ? (
             <img
-              src={`/assets/${LOGO_IMAGE.svg ? "logo.svg" : "logo.png"}`}
+              src={`/assets/${LOGO_IMAGE.light}`}
+              data-light-src={`/assets/${LOGO_IMAGE.light}`}
+              data-dark-src={`/assets/${LOGO_IMAGE.dark}`}
               alt={SITE.title}
               width={LOGO_IMAGE.width}
               height={LOGO_IMAGE.height}
+              id="theme-logo"
             />
           ) : (
             SITE.title
@@ -227,4 +230,30 @@ const { activeNav } = Astro.props;
 
   // Runs on view transitions navigation
   document.addEventListener("astro:after-swap", toggleNav);
+
+  function updateLogoTheme() {
+    const logo = document.getElementById('theme-logo');
+    if (!logo) return;
+
+    console.log('logo');
+    console.log(logo.src);
+    const html = document.getElementsByTagName("html");
+    const theme = html[0].dataset.theme;
+    console.log(theme);
+
+
+    logo.src = theme==="dark" ? logo.dataset.darkSrc : logo.dataset.lightSrc;
+  }
+
+  // Initial update
+  document.addEventListener('DOMContentLoaded', updateLogoTheme);
+
+  // Update on theme change
+  document.getElementById('theme-btn')?.addEventListener('click', () => {
+    setTimeout(updateLogoTheme, 50); // Allow theme class to update first
+  });
+
+  // Update on system theme change
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateLogoTheme);
+
 </script>

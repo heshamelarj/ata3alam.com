@@ -1,13 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
-  <path fill="#000" d="M22.25 4h-8.5a1 1 0 0 0-.96.73l-5.54 19.4a.5.5 0 0 0 .62.62l5.05-1.44a2 2 0 0 0 1.38-1.4l3.22-11.66a.5.5 0 0 1 .96 0l3.22 11.67a2 2 0 0 0 1.38 1.39l5.05 1.44a.5.5 0 0 0 .62-.62l-5.54-19.4a1 1 0 0 0-.96-.73Z"/>
-  <path fill="url(#gradient)" d="M18 28a7.63 7.63 0 0 1-5-2c-1.4 2.1-.35 4.35.6 5.55.14.17.41.07.47-.15.44-1.8 2.93-1.22 2.93.6 0 2.28.87 3.4 1.72 3.81.34.16.59-.2.49-.56-.31-1.05-.29-2.46 1.29-3.25 3-1.5 3.17-4.83 2.5-6-.67.67-2.6 2-5 2Z"/>
-  <defs>
-    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#000"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="15.999999"
+   viewBox="0 0 4.233333 4.233333"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch1">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="0"
+         id="stop1" />
     </linearGradient>
+    <linearGradient
+       id="swatch2">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#swatch1"
+       id="linearGradient1"
+       x1="-121.07617"
+       y1="-3.6923821"
+       x2="134.82031"
+       y2="-3.6923821"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01241425,0,0,0.01241425,2.0279802,2.1925746)" />
+    <linearGradient
+       xlink:href="#swatch2"
+       id="linearGradient2"
+       x1="-121.07625"
+       y1="-3.6923821"
+       x2="134.82039"
+       y2="-3.6923821"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.01241425,0,0,0.01241425,2.0279802,2.1925746)" />
   </defs>
-	<style>
-    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
-  </style>
+  <rect
+     style="display:inline;fill:#fe802e;fill-opacity:1;stroke-width:0.00526091"
+     id="rect2"
+     width="4.231678"
+     height="4.2076578"
+     x="0.01037189"
+     y="0" />
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:0.868312px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.0130246"
+       x="1.1184236"
+       y="2.1918724"
+       id="text1"><tspan
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.868312px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke-width:0.0130246"
+         x="1.1184236"
+         y="2.1918724">أتعلّم</tspan></text>
+    <path
+       id="rect1"
+       style="display:inline;mix-blend-mode:normal;fill:url(#linearGradient1);stroke:url(#linearGradient2);stroke-width:0.317679;stroke-dasharray:none"
+       d="m 1.001428,0.87603385 c -0.17599365,0 -0.31767905,0.14168495 -0.31767905,0.31767835 v 1.2706906 c 0,0.1759939 0.1416854,0.3176789 0.31767905,0.3176789 h 2.2237277 c 0.1759933,0 0.3176787,-0.141685 0.3176787,-0.3176789 V 1.1937122 c 0,-0.1759934 -0.1416854,-0.31767835 -0.3176787,-0.31767835 z M 0.52490965,3.4174398 H 3.7016737 Z" />
+  </g>
 </svg>
