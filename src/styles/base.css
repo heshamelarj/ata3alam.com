@@ -7,6 +7,15 @@
   src: url('../../public/assets/fonts/IBMPLEXMONO/IBMPlexMono-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'noto';
+  src: url('../../public/assets/fonts/Noto/NotoSansArabic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 
@@ -167,11 +176,28 @@
 .figure-container{
   display:flex;
   flex-direction:column;
-  align-items:center
+  align-items:center;
+  position: relative;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+
 }
-.figure-caption{
-  color:#FF6B01;
+
+.figure-caption {
+  font-family: 'noto', monospace;
+  font-weight: 400;
 }
+
+.video-caption{
+    font-family: 'noto', monospace;
+    font-weight: 400;
+
+}
+
 .video-container{
   margin-top: 3em;
   display:flex;
@@ -188,8 +214,19 @@
   margin-top: 1em;
 }
 html[data-theme="dark"] {
+
+  .figure-container{
+    background-color: #212737;
+  }
+  .figure-caption{
+    color: white;
+    font-weight: bolder;
+
+  }
   .video-caption{
     color: #ffffff;
+    font-weight: bolder;
+
   }
 
   .video-container{
@@ -200,8 +237,17 @@ html[data-theme="dark"] {
 
 }
 html[data-theme="light"] {
+  .figure-container{
+    background-color: #fbfefb;
+  }
+  .figure-caption{
+    color: black;
+    font-weight: bolder;
+  }
   .video-caption{
-    color: #036ead;
+    color: black;
+    font-weight: bolder;
+
   }
 
   .video-container{
@@ -251,10 +297,3 @@ span.praise-allah-text[data-theme="dark"] {
   @apply text-xl;
 }
 
-#theme-logo {
-  transition: all 0.3s ease;
-}
-
-html.theme-changing #theme-logo {
-  opacity: 0.7;
-}
