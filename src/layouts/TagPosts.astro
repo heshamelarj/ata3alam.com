@@ -18,7 +18,10 @@ export interface Props {
 
 const { currentPage, totalPages, paginatedPosts, tag, tagName } = Astro.props;
 ---
-
+<head>
+  <meta name="robots" content="noindex, follow">
+  <meta charset="UTF-8" />
+</head>
 <Layout title={`Tag: ${tagName} | ${SITE.title}`}>
   <Header activeNav="tags" />
   <Main
